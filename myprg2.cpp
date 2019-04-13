@@ -90,8 +90,20 @@ int main()
 		    printf("\n enter the value of max");
 		    scanf("%d",&max);
 		    sum=sum+(max-1)-head+(max-1-min)+(b[1]-min);
+		    printf("%d-->",head);
+		    for(i=0;i<7;i++)
+		    {
+		    	printf("%d-->",a[i]);
+		    		
+			}
+			printf("%d--------------->",max-1);
+			printf("%d----->",min);
+			for(i=0;i<2;i++)
+			{
+				printf("%d-->",b[i]);
+			}
 		    printf("\nmovement of total cylinders %d",sum);
-		    printf("\n %d ",sum);
+		
 	
 }
 
